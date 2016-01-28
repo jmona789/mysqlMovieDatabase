@@ -23,3 +23,7 @@ INSERT INTO samuel_l_jackson_movies(name, charac, year)
 VALUES ("Django Unchained", "Stephen", 2012);
 INSERT INTO samuel_l_jackson_movies(name, charac, year)
 VALUES ("Avengers: Age of Ultron", "Nick Fury", 1015);
+
+UPDATE samuel_l_jackson_movies
+SET year=2015
+WHERE year=1015;
