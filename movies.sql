@@ -27,8 +27,8 @@
 CREATE DATABASE movies;
 USE movies;
 CREATE TABLE samuel_l_jackson_movies(
-  name varchar(255),
-  charac varchar(255),
+  name varchar(55),
+  charac varchar(35),
   year INT
 );
 INSERT INTO samuel_l_jackson_movies(name, charac, year)
